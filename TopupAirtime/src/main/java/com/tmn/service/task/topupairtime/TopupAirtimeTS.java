@@ -7,7 +7,7 @@ import com.tmn.service.task.topupairtime.message.VerifyEwalletResponse;
 
 public interface TopupAirtimeTS {
 	
-	public VerifyEwalletResponse verifyTopupAirtimeEwallet(VerifyEwalletRequest reqVerifyEwalletModel);
-	public TopupEwalletResponse topupAirtimeEwallet(TopupEwalletRequest reqTopupEwalletModel);
+	public VerifyEwalletResponse verifyTopupByEwallet(VerifyEwalletRequest reqVerifyEwalletModel);
+	public TopupEwalletResponse topupByEwallet(TopupEwalletRequest reqTopupEwalletModel);
 
 }

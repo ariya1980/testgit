@@ -11,16 +11,16 @@ public class TopupAirtimeTSImpl implements TopupAirtimeTS {
 	
 	TopupAirtimeES topupAirtimeES;
 
-	public VerifyEwalletResponse verifyTopupAirtimeEwallet(
+	public VerifyEwalletResponse verifyTopupByEwallet(
 			VerifyEwalletRequest reqVerifyEwalletModel) {
 		// TODO Auto-generated method stub
-		return topupAirtimeES.verifyTopupAirtimeEwallet(reqVerifyEwalletModel);
+		return topupAirtimeES.verifyTopupByEwallet(reqVerifyEwalletModel);
 	}
 
-	public TopupEwalletResponse topupAirtimeEwallet(
+	public TopupEwalletResponse topupByEwallet(
 			TopupEwalletRequest reqTopupEwalletModel) {
 		// TODO Auto-generated method stub
-		return topupAirtimeES.topupAirtimeEwallet(reqTopupEwalletModel);
+		return topupAirtimeES.topupByEwallet(reqTopupEwalletModel);
 	}
 
 }
