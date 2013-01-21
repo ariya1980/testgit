@@ -1,4 +1,4 @@
-package com.tmn.service.task.topupairtime.proxy;
+package com.tmn.service.entity.topupairtime.proxy;
 
 public interface TppProxy {
 	

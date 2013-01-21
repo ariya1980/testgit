@@ -1,6 +1,6 @@
-package com.tmn.service.task.topupairtime.proxy.impl;
+package com.tmn.service.entity.topupairtime.proxy.impl;
 
-import com.tmn.service.task.topupairtime.proxy.TppProxy;
+import com.tmn.service.entity.topupairtime.proxy.TppProxy;
 
 public class TppProxyImpl implements TppProxy {
 

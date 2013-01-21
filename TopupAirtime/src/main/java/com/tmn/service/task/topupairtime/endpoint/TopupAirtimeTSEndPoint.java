@@ -1,10 +1,10 @@
 package com.tmn.service.task.topupairtime.endpoint;
 
 import com.tmn.service.task.topupairtime.TopupAirtimeTS;
-import com.tmn.service.task.topupairtime.model.ReqTopupEwalletModel;
-import com.tmn.service.task.topupairtime.model.ReqVerifyEwalletModel;
-import com.tmn.service.task.topupairtime.model.RespTopupEwalletModel;
-import com.tmn.service.task.topupairtime.model.RespVerifyEwalletModel;
+import com.tmn.service.task.topupairtime.message.TopupEwalletRequest;
+import com.tmn.service.task.topupairtime.message.VerifyEwalletRequest;
+import com.tmn.service.task.topupairtime.message.TopupEwalletResponse;
+import com.tmn.service.task.topupairtime.message.VerifyEwalletResponse;
 
 public class TopupAirtimeTSEndPoint {
 	
@@ -12,12 +12,11 @@ public class TopupAirtimeTSEndPoint {
 	
 	//Service Inventory first to receive from Product API to service topup air time on TMV/TMVH by ewallet
 	
-	public RespVerifyEwalletModel verifyTopupAirtimeEwallet(ReqVerifyEwalletModel reqVerifyEwalletModel){
+	public VerifyEwalletResponse verifyTopupAirtimeEwallet(VerifyEwalletRequest reqVerifyEwalletModel){
 		return topupAirtimeTS.verifyTopupAirtimeEwallet(reqVerifyEwalletModel);
-		
 	}
 	
-	public RespTopupEwalletModel topupAirtimeEwallet(ReqTopupEwalletModel reqTopupEwalletModel){
+	public TopupEwalletResponse topupAirtimeEwallet(TopupEwalletRequest reqTopupEwalletModel){
 		return topupAirtimeTS.topupAirtimeEwallet(reqTopupEwalletModel);	
 	}
 

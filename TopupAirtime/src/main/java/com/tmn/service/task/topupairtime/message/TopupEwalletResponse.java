@@ -1,17 +1,20 @@
-package com.tmn.service.task.topupairtime.model;
+package com.tmn.service.task.topupairtime.message;
 
-public class RespVerifyEwalletModel {
+public class TopupEwalletResponse {
 	
-	private String resultNamespace;
+	private String resultNamespace;	
 	private String resultCode;			
-	private String reqTransactionId;	
+	private String reqTransactionId;
 	private String transactionId;		
 	private String responseMessage;	
-	private String downTransId;	
+	private String downTransId;		
 	private String msisdn;				
 	private String amount;				
 	private String operator;			
-	private String currentBalance;
+	private String currentBalance;		
+	private String ewalletTransId;		
+	private String ewalletBalance;
+	
 	public String getResultNamespace() {
 		return resultNamespace;
 	}
@@ -71,8 +74,19 @@ public class RespVerifyEwalletModel {
 	}
 	public void setCurrentBalance(String currentBalance) {
 		this.currentBalance = currentBalance;
-	}	
-	
+	}
+	public String getEwalletTransId() {
+		return ewalletTransId;
+	}
+	public void setEwalletTransId(String ewalletTransId) {
+		this.ewalletTransId = ewalletTransId;
+	}
+	public String getEwalletBalance() {
+		return ewalletBalance;
+	}
+	public void setEwalletBalance(String ewalletBalance) {
+		this.ewalletBalance = ewalletBalance;
+	}
 	
 
 }

@@ -1,6 +1,6 @@
-package com.tmn.service.task.topupairtime.model;
+package com.tmn.service.task.topupairtime.message;
 
-public class ReqVerifyEwalletModel {
+public class VerifyEwalletRequest {
 	
 	private String channel;			
 	private String reqTransactionId;

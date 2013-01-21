@@ -1,13 +1,13 @@
 package com.tmn.service.task.topupairtime;
 
-import com.tmn.service.task.topupairtime.model.ReqTopupEwalletModel;
-import com.tmn.service.task.topupairtime.model.ReqVerifyEwalletModel;
-import com.tmn.service.task.topupairtime.model.RespTopupEwalletModel;
-import com.tmn.service.task.topupairtime.model.RespVerifyEwalletModel;
+import com.tmn.service.task.topupairtime.message.TopupEwalletRequest;
+import com.tmn.service.task.topupairtime.message.VerifyEwalletRequest;
+import com.tmn.service.task.topupairtime.message.TopupEwalletResponse;
+import com.tmn.service.task.topupairtime.message.VerifyEwalletResponse;
 
 public interface TopupAirtimeTS {
 	
-	public RespVerifyEwalletModel verifyTopupAirtimeEwallet(ReqVerifyEwalletModel reqVerifyEwalletModel);
-	public RespTopupEwalletModel topupAirtimeEwallet(ReqTopupEwalletModel reqTopupEwalletModel);
+	public VerifyEwalletResponse verifyTopupAirtimeEwallet(VerifyEwalletRequest reqVerifyEwalletModel);
+	public TopupEwalletResponse topupAirtimeEwallet(TopupEwalletRequest reqTopupEwalletModel);
 
 }
