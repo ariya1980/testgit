@@ -1,5 +1,7 @@
 package com.tmn.service.ewallet.entity.impl;
 
+import com.tmn.service.ewallet.domain.GetEwalletBalanceRequest;
+import com.tmn.service.ewallet.domain.GetEwalletBalanceResponse;
 import com.tmn.service.ewallet.domain.RefillEwalletWithCashCardRequest;
 import com.tmn.service.ewallet.domain.RefillEwalletWithCashCardResponse;
 import com.tmn.service.ewallet.entity.EwalletES;
@@ -15,6 +17,12 @@ public class EwalletESImpl implements EwalletES {
 		// Call NextServiceProxyUS.refillEwalletWithCashCard()
 		return null;
 		
+	}
+
+	public GetEwalletBalanceResponse getEwalletBalance(
+			GetEwalletBalanceRequest getEwalletBalanceRequest) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

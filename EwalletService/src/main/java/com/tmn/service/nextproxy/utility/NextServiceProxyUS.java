@@ -3,6 +3,8 @@ package com.tmn.service.nextproxy.utility;
 import com.tmn.service.nextproxy.utility.domain.CreateTmnIdResponse;
 import com.tmn.service.nextproxy.utility.domain.CreateTmnProfileRequest;
 import com.tmn.service.nextproxy.utility.domain.DeactivateEwalletRequest;
+import com.tmn.service.nextproxy.utility.domain.GetEwalletBalanceRequest;
+import com.tmn.service.nextproxy.utility.domain.GetEwalletBalanceResponse;
 import com.tmn.service.nextproxy.utility.domain.IsEwalletExistRequest;
 import com.tmn.service.nextproxy.utility.domain.LinkToTmnIdRequest;
 import com.tmn.service.nextproxy.utility.domain.ModifyAccountRequest;
@@ -34,5 +36,7 @@ public interface NextServiceProxyUS {
 	public NextServiceResponse createTmnProfile(CreateTmnProfileRequest createTmnProfileRequest);
 	
 	public RefillEwalletWithCashCardResponse refillEwalletWithCashCard(RefillEwalletWithCashCardRequest refillEwalletWithCashCardRequest);
+	
+	public GetEwalletBalanceResponse getEwalletBalance(GetEwalletBalanceRequest getEwalletBalanceRequest);
 	
 }

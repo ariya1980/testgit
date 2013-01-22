@@ -4,6 +4,8 @@ import com.tmn.service.nextproxy.utility.NextServiceProxyUS;
 import com.tmn.service.nextproxy.utility.domain.CreateTmnIdResponse;
 import com.tmn.service.nextproxy.utility.domain.CreateTmnProfileRequest;
 import com.tmn.service.nextproxy.utility.domain.DeactivateEwalletRequest;
+import com.tmn.service.nextproxy.utility.domain.GetEwalletBalanceRequest;
+import com.tmn.service.nextproxy.utility.domain.GetEwalletBalanceResponse;
 import com.tmn.service.nextproxy.utility.domain.IsEwalletExistRequest;
 import com.tmn.service.nextproxy.utility.domain.LinkToTmnIdRequest;
 import com.tmn.service.nextproxy.utility.domain.ModifyAccountRequest;
@@ -80,6 +82,10 @@ public class NextServiceProxyUSImpl implements NextServiceProxyUS {
 		return null;
 	}
 
-	
+	public GetEwalletBalanceResponse getEwalletBalance(
+			GetEwalletBalanceRequest getEwalletBalanceRequest) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
