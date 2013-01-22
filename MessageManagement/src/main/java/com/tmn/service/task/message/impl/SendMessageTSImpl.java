@@ -11,8 +11,8 @@ public class SendMessageTSImpl implements SendMessageTS {
 		sendMessageUS.sendEmail(subject, from, to, cc, bcc, messageValue);
 	}
 
-	public void sendSms(String msisdn, String messageValue, String transId) {
-		sendMessageUS.sendSms(msisdn, messageValue, transId);
+	public void sendSms(String msisdn, String messageValue, String transId, String sender) {
+		sendMessageUS.sendSms(msisdn, messageValue, transId,  sender);
 	}
 
 }

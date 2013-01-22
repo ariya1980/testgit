@@ -3,20 +3,32 @@ package com.tmn.service.entity.topupairtime.impl;
 import com.tmn.service.comon.SpringServiceProxy;
 import com.tmn.service.entity.topupairtime.TopupAirtimeES;
 import com.tmn.service.entity.topupairtime.facade.TopupAirtimeLogicFacade;
-import com.tmn.service.task.topupairtime.message.TopupEwalletRequest;
-import com.tmn.service.task.topupairtime.message.VerifyEwalletRequest;
-import com.tmn.service.task.topupairtime.message.TopupEwalletResponse;
-import com.tmn.service.task.topupairtime.message.VerifyEwalletResponse;
+import com.tmn.service.exception.TmnServiceException;
+import com.tmn.service.task.topupairtime.domain.TopupEwalletRequest;
+import com.tmn.service.task.topupairtime.domain.TopupEwalletResponse;
+import com.tmn.service.task.topupairtime.domain.VerifyEwalletRequest;
+import com.tmn.service.task.topupairtime.domain.VerifyEwalletResponse;
 
 public class TopupAirtimeESImpl implements TopupAirtimeES {
 
 
+	
 	public VerifyEwalletResponse verifyTopupByEwallet(
-			VerifyEwalletRequest reqVerifyEwalletModel) {
+		VerifyEwalletRequest reqVerifyEwalletModel)
+		throws TmnServiceException  {
 		// TODO Auto-generated method stub
-		//call verify topup
-		TopupAirtimeLogicFacade topupAirtimeLogicFacade = new 	TopupAirtimeLogicFacade();
-		return topupAirtimeLogicFacade.verifyTopup(reqVerifyEwalletModel);
+		VerifyEwalletResponse verifyEwalletResponse = new VerifyEwalletResponse();
+		try{
+			//call verify topup
+			TopupAirtimeLogicFacade topupAirtimeLogicFacade = new 	TopupAirtimeLogicFacade();
+			 topupAirtimeLogicFacade.verifyTopup(reqVerifyEwalletModel);
+		}catch(Exception e){
+			e.printStackTrace();
+			throw new TmnServiceException("bus error message");
+		}finally{
+			
+		}
+		return verifyEwalletResponse;
 	}
 
 	public TopupEwalletResponse topupByEwallet(
@@ -33,6 +45,8 @@ public class TopupAirtimeESImpl implements TopupAirtimeES {
 		
 		return respTopupEwalletModel;
 	}
+
+
 
 
 

@@ -19,8 +19,8 @@
     </display>  
   </interface>  
   <class id="3" corner="BOTTOM_RIGHT" language="java" 
-    name="com.tmn.service.task.topupairtime.message.TopupEwalletRequest" project="TopupAirtime" 
-    file="/TopupAirtime/src/main/java/com/tmn/service/task/topupairtime/message/TopupEwalletRequest.java" binary="false">    
+    name="com.tmn.service.task.topupairtime.domain.TopupEwalletRequest" project="TopupAirtime" 
+    file="/TopupAirtime/src/main/java/com/tmn/service/task/topupairtime/domain/TopupEwalletRequest.java" binary="false">    
     <position height="486" width="195" x="41" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
@@ -55,9 +55,8 @@
     </display>  
   </class>  
   <class id="7" corner="BOTTOM_RIGHT" language="java" 
-    name="com.tmn.service.task.topupairtime.message.VerifyEwalletRequest" project="TopupAirtime" 
-    file="/TopupAirtime/src/main/java/com/tmn/service/task/topupairtime/message/VerifyEwalletRequest.java" 
-    binary="false">    
+    name="com.tmn.service.task.topupairtime.domain.VerifyEwalletRequest" project="TopupAirtime" 
+    file="/TopupAirtime/src/main/java/com/tmn/service/task/topupairtime/domain/VerifyEwalletRequest.java" binary="false">    
     <position height="333" width="195" x="491" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
@@ -83,9 +82,8 @@
     </display>  
   </class>  
   <class id="10" corner="BOTTOM_RIGHT" language="java" 
-    name="com.tmn.service.task.topupairtime.message.TopupEwalletResponse" project="TopupAirtime" 
-    file="/TopupAirtime/src/main/java/com/tmn/service/task/topupairtime/message/TopupEwalletResponse.java" 
-    binary="false">    
+    name="com.tmn.service.task.topupairtime.domain.TopupEwalletResponse" project="TopupAirtime" 
+    file="/TopupAirtime/src/main/java/com/tmn/service/task/topupairtime/domain/TopupEwalletResponse.java" binary="false">    
     <position height="690" width="195" x="726" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
@@ -131,8 +129,8 @@
     </display>  
   </interface>  
   <class id="15" corner="BOTTOM_RIGHT" language="java" 
-    name="com.tmn.service.task.topupairtime.message.VerifyEwalletResponse" project="TopupAirtime" 
-    file="/TopupAirtime/src/main/java/com/tmn/service/task/topupairtime/message/VerifyEwalletResponse.java" 
+    name="com.tmn.service.task.topupairtime.domain.VerifyEwalletResponse" project="TopupAirtime" 
+    file="/TopupAirtime/src/main/java/com/tmn/service/task/topupairtime/domain/VerifyEwalletResponse.java" 
     binary="false">    
     <position height="-1" width="-1" x="365" y="442"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      

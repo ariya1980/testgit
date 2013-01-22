@@ -1,8 +1,8 @@
 package com.tmn.service.entity.topupairtime.logic;
 
 import com.tmn.service.entity.topupairtime.proxy.TppProxy;
-import com.tmn.service.task.topupairtime.message.TopupEwalletRequest;
-import com.tmn.service.task.topupairtime.message.TopupEwalletResponse;
+import com.tmn.service.task.topupairtime.domain.TopupEwalletRequest;
+import com.tmn.service.task.topupairtime.domain.TopupEwalletResponse;
 
 public class TppTopupLogic {
 	

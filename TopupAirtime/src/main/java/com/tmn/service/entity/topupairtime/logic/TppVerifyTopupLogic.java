@@ -1,8 +1,8 @@
 package com.tmn.service.entity.topupairtime.logic;
 
 import com.tmn.service.entity.topupairtime.proxy.TppProxy;
-import com.tmn.service.task.topupairtime.message.VerifyEwalletRequest;
-import com.tmn.service.task.topupairtime.message.VerifyEwalletResponse;
+import com.tmn.service.task.topupairtime.domain.VerifyEwalletRequest;
+import com.tmn.service.task.topupairtime.domain.VerifyEwalletResponse;
 
 public class TppVerifyTopupLogic {
 	

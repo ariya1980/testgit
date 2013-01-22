@@ -11,8 +11,8 @@ public class SendMessageUSImpl implements SendMessageUS {
 		
 	}
 
-	public void sendSms(String msisdn, String messageValue, String transId) {
-		//get URL of SMS Firsthop in DB Config
+	public void sendSms(String msisdn, String messageValue, String transId, String sender) {
+		//get URL,User,Password of SMS Firsthop in DB Config
 		
 		//prepare xml message to SMS firsthop
 		
