@@ -24,6 +24,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/TmnExecption"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/IntTmnExecption"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GwCcpGateway"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GwCdbGateway"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GwEwalletGateway"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GwPpgwGateway"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/IntTransactionDAO"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GwTransactionGateway"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
